@@ -1,0 +1,669 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+  <title>Referat - Sklyarova Nataliia - Models and algorithms for assessing the quality of the information system development sites</title>
+  <link rel="stylesheet" type="text/css" href="../css/master_style.css">
+</head>
+
+<body lang="en">
+
+<div id="topblock">
+
+<div id="langbox">
+<a href="indexu.htm"><img src="../images/ua.png" title="Ukrainian" width="24" height="20" border=0></a> &nbsp; 
+<a href="index.htm"><img src="../images/ru.png" title="Russian" width="24" height="20" border=0></a> 
+</div>
+
+<div id="donntu">
+<a href="http://donntu.edu.ua/index.php?lang=eng" target=_blank>DonNTU</a> &nbsp; 
+<a href="http://masters.donntu.edu.ua/indexe.htm" target=_blank>Masters' portal</a>
+</div>
+
+</div>
+
+<div id="header">
+
+<div id="photomag">
+<a href="../sklyarova_big.jpg"><img src="../photo.jpg" width=180 height=240  title="DonNTU Master Sklyarova Nataliia" alt="DonNTU Master Sklyarova Nataliia" border=0></a>
+</div>
+
+<div id="headertext">
+<h1 class=hdr>Sklyarova Nataliia</h2>
+<h3 class=hdr>Faculty	of computer science and technology (CST)</h3>
+<h3 class=hdr>Departmentof Computer Science (CS)</h3>
+<h3 class=hdr>Speciality <q>System Analysis and Management</q></h3>
+<h2 class=hdr>Models and algorithms for assessing the quality of the information system development sites</h1>
+<h3 class=hdr>Scientific adviser: Candidate of Engineering Sciences, Professor Alex Shushura</h3>
+</div>
+
+</div>
+
+<div id="middleblock">
+
+<div id="menu">
+<a class="button color" href="../indexe.htm">Resume</a>
+<a class="button colorfix">Referat</a>
+</div>
+
+<div id="maintext">
+
+<h1>Referat</h1>
+
+
+<h2>Сontents</h2>
+<ul class=content>
+
+<li class=ct1><a href="#p0">Introduction</a>
+<li class=ct1><a href="#p1">1. Theme urgency</a>
+<li class=ct1><a href="#p2">2. Goal and tasks of the research</a>
+<li class=ct1><a href="#p3">3. The system analysis of the process of evaluation of quality web development</a>
+<li class=ct2><a href="#p3">3.1. Development of morphological model </a>
+<li class=ct2><a href="#p3">3.2. Goal and tasks of the research </a>
+<li class=ct2><a href="#p3">3.3. The system analysis of the process of evaluation of quality web development </a>
+<li class=ct1><a href="#p4">Conclusion</a>
+
+<li class=ct1><a href="#ref">References</a>
+</ul>
+
+<a name=p0></a>
+<h2>Introduction</h2>
+<p>
+The variety of presentation options, and post information on the site, and
+and lack of scientific study and systematization of relevant experience makes
+the task of developing algorithms and methods of quality control software (sites)
+extremely urgent. Implementation of the developed algorithms will ensure
+not only high quality of the final software product (site), but also improving
+the effectiveness of its use.</p>
+<p>To perform the task need to highlight features of construction
+sites, taking into account a number of factors. These include: constructive presentation of information
+(usability of the site), high-quality eye-catching design, creative ideas and solutions,
+advanced content management functionality (amendments,
+additions and so forth.). Of particular importance is such a characteristic as basic features
+site optimization for search engines, and others.</p>
+<p>Questions of the organization of quality control developed software products (
+particular sites) are presented in the works of Russian and foreign authors as
+S. Dobrynin, Bosov AV and etc. <a href='#ref7'>[7]</a>, <a href='#ref8'>[8]</a>, <a href='#ref9'>[9]</a>.</p>
+<p>The analysis revealed a difference in approach to the assessment of different sites
+authors. The proposed work is qualitatively different from the technique of the analytes,
+it is based on existing standards (ISO / IEC 9126-93 "Assessment
+software products ") and the maximum number of estimated parameters.</p>
+<p>Furthermore, according to GOST R ISO / IEC 9126-93 "Evaluation of software products" <a href='#ref10'>[10]</a>,
+the site shall be of such quality characteristics as functional
+possibilities, reliability, usability, efficiency, maintainability and portability,
+and features inherent sites in accordance with data characteristics.
+</p>
+<p>Functionalities include a number of characteristics, such as:
+the suitability, accuracy, interoperability, consistency,
+protection. Suitability characterizes the site in terms of its possession of the minimum
+featured (content). Correctness means that the site should accurately reflect
+and the data entered. Interoperability shows how the system
+It interacts with the operating system (in this security products
+cross-platform). Consistency describes the site in terms of compliance
+laws and rules of its design (for example: the law on the content of the site). Protection
+It shows how the site should be protected from the content
+unauthorized access.</p>
+<p>Next a number of characteristics presented reliability and includes
+performance stability, fault tolerance and recoverability. Stability
+It means that the site has the smallest number of failures in the software error. Resistance to
+an error saying that the site has to maintain a certain level of quality in
+cases, software bugs. For example, the user has no support for flash
+PC and need to transfer all the information in flash in a different format for the
+User. Recoverability shows that when an error is able to quickly site
+restore its functionality (the site has no specific interaction with
+client and therefore has immediate error recovery at
+user).</p>
+<p>Indicators practicality characterize understandability, learnability, simplicity
+use. Clarity means that the site should be clear and well
+perceived by the user. Learning suggests that the site contains a number of
+Tips for proper use of the website by the user. Ease of use
+It characterizes the site in terms of ease of navigation, simplicity and speed in finding
+necessary information.</p>
+<p>One of the most important sets of characteristics including performance indicators. This
+characteristics such as: changes in the nature of resources and the nature of the change in time.
+They say that the site should be well optimized for fast operation.</p>
+<p>Next inherent characteristic of software products - maintainability -
+presented figures testability, stability, variability analyzed.
+Testability means that the site should be easily verifiable with the modifications
+(For example, uses a technology called "Apache" to check the site on the local machine).
+Stability indicates that the site is protected from the risk of unsuccessful modifications i.e.
+roll back changes (any modification on the site can be removed manually from the code of the page).
+The variability characterizes the site in terms of the possibility of modification (for
+minimal modification site can use any text editor, except for a few
+cgi-scripts). It indicates the presence of the analyte at the site diagnostic devices
+self-empowerment and modifications necessary software to achieve the best
+performance (for example: if the site requires java or flash later,
+the user may be prompted to modify the software).</p>
+<p>Last number of characteristics presented indicators of mobility and includes:
+adaptability, ease of implementation, compliance, interchangeability. Adaptability
+It means that the site should work on any software. Ease of implementation indicates that
+the site should function under any set of user software. Compliance -
+characteristics, to express to the site laws of the country in which it is
+used. Interchangeability indicates that the site is capable of substitution
+such resource without much difficulty.</p>
+<p>One of the key points to consider when building a website - it
+that the Internet is generally a source of information. Thus, the site as part of
+Internet should provide as much information to visitors and users.
+In addition, visitors have easy to navigate in its pages. more
+site gives answers to the issues facing the visitors, the higher the probability that
+they will use it in the future.</p>
+<p>Estimation of parameters such as traffic and demand for content is suitable
+and is effective only after a certain period of time the work site,
+so these figures will not be counted.<a href='#ref11'>[11]</a></p>
+
+
+
+<a name=p1></a>
+<h2>1. Theme urgency</h2>
+<p>
+Today, information technologies have begun to actively influence the daily activities of any organization and become an integral component of its
+information infrastructure. Modern website <a href="ref15">[15]</a>, <a href="ref16">16</a>, <a href="ref17">[17]</a> - This extensive system
+software, information, media resources, logically interrelated.
+Therefore, among the site developers highlight the category of professional researchers the quality of these products.
+The dynamic development of the sphere of web development gives rise
+the need for the scientific study of quality of the site in order to create objective advice. </p>
+
+<p>The results of this assessment should reflect the characteristics of the quality of web sites and used as developers for certification of the product, and customers
+the acquisition of sites. The quality of sites is an integral characteristic, including a wide range of product properties and
+determines the degree of user satisfaction.</p>
+
+<p>A number of methods for evaluating the quality of sites, which are described AG Gavrilov, ES Kubashevoy article "Methodology of quality sites." article solves the problem of the development of algorithms and methods of control
+quality products (websites)<a href="ref11">[11]</a>. 
+Article O. Pilate "Information technology evaluation of the quality of sites," a mathematical model of the integrated assessment of the quality of the website.
+She provided obtaining results through questionnaires and evaluation of quality indicators and the ranking of categories of quality. analyzed the most important
+Factors affecting the quality of a website and ranking quality categories. The model accounts for the weights of each individual category. <a href="ref12">[12]</a>
+The article T. Maksiyanovoy "Methodology of business efficiency in e-commerce" proposed assessment methodology
+the efficiency of Internet companies in the field of e-commerce based on the stages of decision-making Internet users to buy,
+principles of organization of Internet commerce and the factors affecting the performance of Internet companies.<a href="ref14"></a>
+In the article "Development of quality assessment sites Libraries" OV Kulyov the problem of providing high quality sites of cultural institutions.
+A system for assessing the quality of websites of libraries, including the evaluation criteria and procedures. The basis for the definition of key aspects of the formation of the system
+Site evaluation criteria were the software and hardware systems, and resource library. The methods of data collection, as well as the process and
+forms of measurement suitable to measure the quality of sites.<a href="ref14"></a>
+And Article V. Garkin, RN Chen "Development and research of methods of load and functional assessment of the quality informatsionnіh systems" addressed the issues of development and research methodology load and functional evaluation of the web service of the Faculty of Economic Informatics KNUE.<a name="ref18">
+</p>
+<p>These methods and models have some efficacy, but for most economical realization, they must be combined.</p>
+<p>Master's thesis is devoted to actual scientific problem of development of quality assessment of web sites. The target base developed techniques studied.</p>
+
+
+
+<a name=p2></a>
+<h2>2. Goal and tasks of the research</h2>
+<p>The aim of the research is to study the techniques developed and on their basis to develop an improved model for evaluating the quality of the site.</p>
+<p>The main objectives of the study:</p>
+<ol>
+<li>Analysis methods for evaluating the quality of sites.
+<li>Analysis of the developed models.
+<li>Search and identification of the characteristics of existing methods and evaluation of the possibilities of their application in the modern world.
+<li>Combining functionally different directions to optimize sites and the formation of recommendations on its use.
+<li> The development of alternative models for evaluating the quality of the development of web resources.
+</ol>
+<p><span class=itl>Research object</span>: websites</p>
+<p><span class=itl>Research subject</span>:unification of methods and models for the improvement of quality evaluation of Web sites</p>
+
+
+
+
+<a name=p3></a>
+<h2>3. The system analysis of the process of evaluation of quality web development </h2>
+<a name=p31></a>
+<h3>3.1 Development of morphological model</h3>
+<br>
+<p>
+Morphological model is a combination of the following models:
+<ul><li>model is a "black box";</li>
+<li>model composition of the system;</li>
+<li>model of the structure of the system.</li></ul></p>
+<p>The model "black box" includes:
+<ul>
+<li>model border;</li>
+<li>a model of the environment of the system;</li>
+<li>Model inputs System;</li>
+<li>Model output systems.</li>
+</ul>
+</p>
+<p>This model is a reference model in the construction of complex systems and focuses on the interaction with the external environment. This interaction is carried out by exposure to the system on the environment through the results of its targeted operation, ie through the desired product. Target system products - it exits the system.
+In turn, the external environment has an impact on the system through the provision of resource management and various controllable and uncontrollable factors that facilitate or impede the normal functioning of the system. Such links with the system of the environment (environmental impact on the system) called the input system.
+The scheme itself is depicted as a "non-transparent box", with the contents of the box were not disclosed. Therefore, the model is called the "black box."</p>
+<p>To develop a model of the "black box" is necessary to determine
+the boundaries of the "process of assessing the quality of the development sites", the external environment, the ins and outs of the system.</p>
+<p>The border of the "process of assessing the quality of the development sites" determined "website address";
+</p>
+<p>As the external environment of the "quality evaluation process
+development sites" are:	<br>Internet competitors, CMS, device users.</p>
+<p>Logon "process of assessing the quality of the development sites" are:
+<ul>
+<li>х1 – application for evaluating the quality of the product;</li>
+<li>х2 – technical specification client;</li>
+<li>х3 – Investment Projects Clients;</li>
+<li>х4 – customer site.</li>
+</ul>
+</p>
+<p>To exit the system, "the process of assessing the quality of the development sites"
+include:
+<ul><li>у1 - planning analysis;</li>
+<li>у2 - selection methodology;</li>
+<li>у3 - recommendations for improving the quality in the future and report on the work performed.</li>
+</ul>
+</p>
+<p>The Picture 1.1 a model of a black box system "the process of assessing the quality of the development sites".</p>
+<div class=img>
+<img src="images/ph1.png" width=640 height=460 alt="The model black box process of assessing the quality of development sites">
+<p class=imgcaption>The Picture 1.1. – The model "black box" process of assessing the quality of development sites</p>
+</div>
+<p>Model structure.</p>
+<p>System, its internal structure is usually heterogeneous, which makes it necessary to distinguish its internal parts.
+</p>
+<p>The system components and subsystems distinguish different levels.
+</p>
+<p>Element - part of a system or subsystem, further fragmentation which does not make sense. Subsystem - it's part of the system with some links and relations.
+</p>
+<p>The companies are the following constituent elements:<ul><dl>
+<dt>1.Research Department:</dt>
+<dd>1.1.Project manager;</dd>
+<dd>1.2.Analyst;</dd>
+<dd>1.3.Economist.</dd>
+<dt>2.implementation Unit:</dt>
+<dd>2.1.Web designer;</dd>
+<dd>2.2.Make up man;</dd>
+<dd>2.3.Programmer;</dd>
+<dd>2.4.Software testing.</dd>
+</dl></ul>
+</p>
+<p>The Picture 1.2 the model of the composition of the system.</p>
+<div class=img>
+<img src="images/animation.gif" width=594 height=420 alt="The model of the composition of the system">
+<p class=imgcaption>
+Picture 1.2 – The model of the composition of the system <br>(animation: 10 frames, 10 cycles of repeating, 160 kilobytes)<br>
+(<i>x<sub>i</sub></i> – input signals, <i>y<sub>i</sub></i> – bites of state code, <i>z<sub>i</sub></i> – output signals)
+</p>
+</div>
+<p>Model structure. </p>
+<p>Any system is determined not only by the composition of its parts, but also the order and manner of combining these parts into a whole. All parts (components) of the system are in a certain relationship or connections with each other. The structure - a set of links between elements of the system.
+</p>
+<p>The Picture 1.3 a model structure with newly introduced symbols 1=А1, 1.1.=А11, 1.2.=А12, similarly for the rest of enumerations.</p>
+<p>Model organizational structure of the evaluation of the quality control process, shown in the picture 1.3, obtained from the model structure by establishing inter-element links. Direction lines displayed subordinate units.
+</p>
+<div class=img>
+<img src="images/ph3.png" width=640 height=460 alt="Model system structure">
+<p class=imgcaption>The Picture 1.3. – Model system structure</p>
+</div>
+<p>For the model of the structure to determine the relationship between elements and subsystems.
+The following are descriptions of these links:</p>
+<p>
+<ul>
+<li>У11-12 – hierarchical relationship. Project Manager provides the data for the analysis of the project analysis..</li>
+<li>У12-11 – Analyst conducts a cursory analysis of the resource is a report and sends it to the project manager.</li>
+<li>У12-13 – Analyst reports project report by economists to calculate the cost of the project.</li>
+<li>У11-13 - Project Manager provides the data for the calculation of the project economist.</li>
+<li>У13-11 - Economist of the financial statements and reports to the manager of projects.</li>
+<li>У21-22 – The designer creates a template and transmits it to a typesetter.</li>
+<li>У22-23 – Imposer creates a framework site and transmits it back for revision programmer.</li>
+<li>У23-24 – Software programs the website and sends it to the tester for detailed testing.</li>
+<li>У24-21 – Tester creates test cases with errors web designer to finalize.</li>
+<li>У24-22 - Tester creates test cases with errors typesetter for completion.</li>
+<li>У24-23 - Tester creates test cases with errors programmer for completion.</li>
+<li>У24-11 – Tester sends the report project manager.</li>
+<li>У24-12 – Tester sends a report analyst for further analysis.</li>
+</ul>
+</p>
+<p>The structure of the investigated system can be represented as a hierarchy (The Picture 1.4), since obviously a clear subordination of some other parts of the system.</p>
+<p>The Picture 1.4 it is clear that the project manager manages the analyst and economist. The analyst is responsible for the sales department, namely to work Web designer, coder, programmer and tester.</p>
+<div class=img>
+<img src="images/ph4.png" width=640 height=460 alt="Organizational (hierarchical) structure of the company">
+<p class=imgcaption>The Picture 1.4. – Organizational (hierarchical) structure of the company</p>
+</div>
+
+
+
+<a name=p32></a>
+<h3>3.2 The synthesis of functional model</h3>
+<p>Functional modeling - is the process of modeling the functions performed by the system or object under consideration by creating a narrative, structured, graphic, indicating that, as someone made in the framework of object linking these functions based on the information available.</p>
+<p>The functional model designed to study the characteristics of the system and its purpose in relation to the internal and external elements.</p>
+<p>As technology IDEF functional model - a set of closely interacting descriptions starting with a description of the top level of the entire system and ending with detailed description of parts, called charts. The system model building: the creation of a top-level diagram, called a context diagram (A-0); Decomposition of the diagram (A <sub> 0 </sub>); decomposition of each block diagram A <sub> 0 </sub>.</p>
+</p>
+<p>Construction context diagram.</p>
+<p>To build chart you must define the content main function of the system inputs and outputs in it, manage, and the mechanism by which the function of the system is performed.
+</p>
+<p> For the process of assessing the quality of the development site's main function is to assess the quality of the site.</p>
+<p>The inputs are:
+<ul>
+<li>х1 – application;</li>
+<li>х2 – technical specification(TS);</li>
+<li>х3 – Investment;</li>
+<li>х4 - website.</li>
+</ul>
+</p>
+<p>The outputs are:
+<ul>
+<li>у1 - product analyzed;</li>
+<li>у2 - increase in profit for the company customer.</li>
+<li>у3 - Progress report and recommendations for improvement in the future.</li>
+</ul>
+</p>
+<p>Management is carried out by special instruments and standards (GOST, ISO, etc.).</p>
+<p>The control mechanism - the company which is engaged in this activity.</p>
+<div class=img>
+<img src="images/ph5.png" width=640 height=460 alt="A formal model of black box">
+<p class=imgcaption>The Picture 2.1. – A formal model of black box</p>
+</div>
+<div class=img>
+<img src="images/ph6.png" width=640 height=460 alt="Context model">
+<p class=imgcaption>The Picture 2.2. – Context model</p>
+</div>
+<p>For the company's main function is the correct evaluation of the quality of the web resource developed, which takes into account all of its components. To achieve this result we split the function into sub-functions. The resulting model is shown in Figure 2.3 below.
+</p>
+<div class=img>
+<img src="images/ph7.png" width=800 height=400 alt="Functional model А0">
+<p class=imgcaption>The Picture 2.3. – Functional model А0</p>
+</div>
+<p>To generate additional knowledge of the system, we are decomposing each block of a functional model of quality evaluation A0.</p>
+<p>Login to the system are:
+<ul>
+<li>х1 – request;</li>
+<li>х2 – technical specification;</li>
+<li>(х3) – investment;</li>
+<li>х4 – website.</li>
+</ul>
+</p>
+<p>The outputs of the system are:
+<ul>
+<li>у1 – product analyzed;</li>
+<li>у2 – increase in profits;</li>
+<li>у3 – Report and Recommendations.</li>
+</ul>
+</p>
+<p>Management - documents, GOST, ISO.</p>
+<p>Control mechanisms - the company's employees.</p>
+<p>Block A1 - formation evaluation plan and the timing of implementation.</p>
+<p>Block A2 - identification of the main evaluation criteria.</p>
+<p>Block A3 - residual planning and implementation process.</p>
+<p>Block A4 - solution.</p>
+<p>The Picture 2.4 is presented to decompose the block А1. </p>
+<div class=img>
+<img src="images/ph8.png" width=800 height=400 alt="Functional decomposed model А1">
+<p class=imgcaption>The Picture 2.4. – Functional decomposed model А1</p>
+</div>
+<br>
+<p>Login to the system are:
+<ul>
+<li>х1 – request;</li>
+<li>х2 – technical specification;</li>
+<li>х3 – website.</li>
+</ul>
+</p>
+<p>The outputs of the system are:
+<ul>
+<li>у1 – terms;</li>
+<li>у2 – plan;</li>
+<li>у3 – recommendations on the technical task.</li>
+</ul></p>
+<p>Management - documents, GOST, ISO.</p>
+<p>Management arrangements - Analyst, all staff of the company, sales department, the analyst.</p>
+<p>Блок А 1.1 – formation evaluation plan;</p>
+<p>Блок А 1.2 – familiarity with the technical requirements;</p>
+<p>Блок А 1.3 – familiarity with the site; </p>
+<p>Блок А 1.4 – coordination of the implementation of the terms.</p>
+<p>The Picture 2.5. is presented to decompose the block А2.</p>
+<div class=img>
+<img src="images/ph9.png" width=800 height=400 alt="Functional decomposed model А2">
+<p class=imgcaption>The Picture 2.5. – Functional decomposed model А2</p>
+</div>
+<p>Login to the system are:
+<ul>
+<li>х1 – terms;</li>
+<li>х2 – plan;</li>
+<li>х3 – recommendations on the technical task.</li>
+</ul>
+</p>
+<p>The outputs of the system are:
+<ul>
+<li>у1 – report;</li>
+<li>у2 – additional criteria;</li>
+<li>у3 – recommendations on the technical task.</li>
+</ul>
+</p>
+<p>Management - documents, GOST, ISO.</p>
+<p>Control mechanisms - the analyst.</p>
+<p>Block A 2.1 - Definition of basic criteria;</p>
+<p>Block A 2.2 - assessment of the current state;</p>
+<p>Block A 2.3 - Analysis of the results; </p>
+<p>Block A 2.4 - Preparation of the report on the analysis of.</p>
+<p>The Picture 2.6. is presented to decompose the block А3.</p>
+<div class=img>
+<img src="images/ph10.png" width=800 height=400 alt="Functional decomposed model А3">
+<p class=imgcaption>The Picture 2.6. – Functional decomposed model А3</p>
+</div>
+<p>Login to the system are:
+<ul>
+<li>х1 – report;</li>
+<li>х2 – additional criteria;</li>
+<li>х3 – recommendations on the technical task.</li>
+</ul>
+</p>
+<p>The outputs of the system are:
+<ul>
+<li>у1 – the assigned task;</li>
+<li>у2 – criteria for the solution of the problem;</li>
+<li>у3 – input to solve the problem.</li>
+</ul>
+</p>
+<p>Management - documents, GOST, ISO.</p>
+<p>Management arrangements - analyst and project manager.</p>
+<p>Block A 3.1 - Develop a plan to improve;</p>
+<p>Block A 3.2 - Data collection;</p>
+<p>Block A 3.3 - structuring data; </p>
+<p>Block А 3.4 – formulation of the problem.</p>
+<p>The picture 2.7. It is presented to decompose the block A4.</p>
+<div class=img>
+<img src="images/ph11.png" width=800 height=400 alt="Functional decomposed model А4">
+<p class=imgcaption>The Picture 2.7. – Functional decomposed model А4</p>
+</div>
+<p>Login to the system are:
+<ul>
+<li>х1 – the assigned task;</li>
+<li>х2 – criteria for the solution of the problem;</li>
+<li>х3 – input to solve the problem.</li>
+</ul>
+</p>
+<p>The outputs of the system are:
+<ul>
+<li>у1 – product analyzed;</li>
+<li>у2 – increase in profits;</li>
+<li>у3 – Report and Recommendations.</li>
+</ul>
+</p>
+<p>Management - documents, GOST, ISO.</p>
+<p>Control mechanisms - the designer, coder, programmer, analyst, tester, project manager.</p>
+<p>Block А 4.1 – the choice of method optimization;</p>
+<p>Block А 4.2 – implementation of the evaluation process;</p>
+<p>Block А 4.3 – Analysis of the results; </p>
+<p>Block А 4.4 – drawing up a report on the operation and make recommendations for further improvement</p>
+
+
+<a name=p33></a>
+<h3>3.3 Development of information model</h3>
+<p>The basic concepts of information models are: the external object, the task, the data warehouse, information flow, material flow, storage of material objects.
+</p>
+<p>Information model displays: problems solved components of the system and the place of their decisions, the objects of the external environment (how and where the data comes from a block of tasks and storage), data warehouse, information flows, material and documentary flows.
+</p>
+<p>The model does not show: no clear organizational structure of the system, the full understanding of the hierarchy of elements, the functional area (functional structure of the system).</p>
+<p>Here are the information model of the "quality of the evaluation process" and decomposed model of information system model "evaluation process quality.</p>
+<p>Consider the information model of the process developed by the Quality Assessment Web resource, shown in the picture 3.1.</p>
+<div class=img>
+<img src="images/ph12.png" width=600 height=700 alt="Information model of quality evaluation">
+<p class=imgcaption>The Picture 3.1. – Information model of quality evaluation</p>
+</div>
+<p>The diagram shows a model that describes the interaction of internal company that deals with the analysis of sites, with the customer. The customer submits an application and the company, consulting, takes a decision (to accept or reject the customer's request). Reject applications if everything is fine with the site or else incompetent experts in solving the problems of the client.</p>
+<p>In case the application is accepted, the company takes on the customer site and developed technical specification (TS) for analysis of the site and the task. Later negotiated cost of the project.</p>
+<p>After the initial analysis of the company with the customer specifies the problems of the site and making recommendations for improvement, if the customer agrees to the terms, the company is starting to fulfill the tasks. The database recorded customer data and all documents provided to them. The storage company puts customer data and projects. At the end of the project the payment is made.</p>
+<p>Block 1 - made the reception and analysis of the applications, as well as discussion of the project with the customer. Block 2 - Create a site layout designer. Block 3 - designed layout of the site. Block 4 - programmed the remaining part of the site. Block 5 is made testing site tester.</p>
+<p>	The Picture 3.2. is presented to decompose the model block 1 on the picture 3.1.</p>
+
+<div class=img>
+<img src="images/ph13.jpg" width=600 height=400 alt="Decomposed model block 1.">
+<p class=imgcaption>The Picture – Decomposed model block 1.</p>
+</div>
+<p>Block 1.1 – acceptance of requests, creation of a common report, ogovarivanie timing and the scope of work with the customer and the definition of key terms, contracts and payments, presentation of the project. Implemented by the project manager..</p>
+<p>Block 1.2 - Technical Analysis job creation objectives, the establishment of the analytical report, the analysis syta in general. Produced by the analyst.</p>
+<p>Block 1.3 – It creates a price for each project, estimated project created by the financial statements and others. Implemented economist.</p>
+
+
+
+<a name=p4></a>
+<h2>Conclusion</h2>
+<p>For the systematic study developed morphological, functional and information model.
+The structure of the object of study is described morfologichnoy model.
+A functional model was presented in the form of diagrams and IDEF decomposed to level 3.
+The information model is based on the methodology of DFD and complements the functional model.
+</p> 
+<p> The results can be used as the basic structure for deeper detail and the decomposition of its units,
+ complementing and expanding in accordance with the change of criteria or other factors affecting the research object.
+</p>
+<p> Further research focuses on the following aspects: 
+<ol>
+<li> A qualitative improvement of the approach to the development of the resource, its complement and expand.
+<li> The definition of the boundaries of the effectiveness of different options for the main stages of the development of the resource.
+<li> The adaptation of known methods for the development of resources.
+<li> The development of cross-platform functionality and computer-aided design resource.
+</ol>
+</p>     
+<p>
+In writing this essay master's work is not yet complete. Final completion: December 2015 - January 2016. Full text
+and materials on the topic can be obtained from the author or his manager after that date.
+</p>
+
+
+
+
+<a name=ref></a>
+<h2>References</h2>
+<ol>
+<li><a name="ref1"></a>Голубков Е.П. - Системный анализ как методологическая основа принятия решений. // Статья «Логические элементы системного анализа и процесс его проведения» [Электронный ресурс]: Режим доступа: 
+URL: http://www.mevriz.ru/articles/2003/4/1125.html 
+<li><a name="ref2"></a>Шушура О.М. - Методичні вказівки до самостійної роботи з дисципліни «Консалтинг та моделювання бізнес-процесів» для студентів спеціальності «Системний аналіз і управління» / Упоряд.: О.М.Шушура. - Донецьк: ДонНТУ, 2011.- 134с.- рос. мовою.
+<li><a name="ref3"></a>Шептура А.А. - Основы системного анализа: Методические указания к выполнению курсовой работы для студентов специальности «Системный анализ»/ А.А. Шептура, Донецк – 2010. -11с.
+<li><a name="ref4"></a>Згуровский М.З., Панкратова Н.Д. Системный анализ.  – К.: Наукова думка, 2005.
+<li><a name="ref5"></a>В.И.Лямец, А.Д.Тевяшев. Системный анализ. Вступительный курс – 2-е изд., перераб. и допол.,– Харьков: ХНУРЕ, 2004 – 448с.
+<li><a name="ref6"></a>А.И. Умелов. Системный подход и общая теория систем, – М.: Мысль, 1978 – 272с.
+<li><a name="ref7"></a>Добрынин С. Анализ сайта. Оценка сайта по качеству. - 2009.
+<li><a name="ref8"></a>Босов А.В. Моделирование и оптимизация процессов функционирования информации
+web-портала. - 2009.
+<li><a name="ref9"></a>«Как заценить свой сайт (оценка качества создания сайта)» 2007. <a href ="http://www.designarts.ru/articles/books/1/index.html "> http://www.designarts.ru/articles/books/1/index.html </a></p>
+<li><a name="ref10"></a>ГОСТ Р ИСО/МЭК 9126-93 «Оценка программной продукции». 1994.
+<li><a name="ref11"></a>А.Г. Гаврилов, Е.С. Кубашева - МЕТОДИКИ ОЦЕНКИ КАЧЕСТВА САЙТОВ<a href="https://www.google.com.ua/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CBwQFjAAahUKEwiHn5bZuInGAhXlstsKHYaBAJU&url=http%3A%2F%2Fcyberleninka.ru%2Farticle%2Fn%2Fmetodiki-otsenki-kachestva-saytov.pdf&ei=w3B6VcexKOXl7gaGg4KoCQ&usg=AFQjCNFPd5AMerGKr30g2Bdam1zpoZNDqg&sig2=bnL1c31kzDlOSDsnBc4fRQ&bvm=bv.95515949,d.bGg">https://www.google.com.ua/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CBwQFjAAahUKEwiHn5bZuInGAhXlstsKHYaBAJU&url=http%3A%2F%2Fcyberleninka.ru%2Farticle%2Fn%2Fmetodiki-otsenki-kachestva-saytov.pdf&ei=w3B6VcexKOXl7gaGg4KoCQ&usg=AFQjCNFPd5AMerGKr30g2Bdam1zpoZNDqg&sig2=bnL1c31kzDlOSDsnBc4fRQ&bvm=bv.95515949,d.bGg</a>
+<li><a name="ref12"></a>О. Ю. Пілат - ІНФОРМАЦІЙНА ТЕХНОЛОГІЯ ОЦІНЮВАННЯ ЯКОСТІ САЙТІВ<a href ="http://irbis-nbuv.gov.ua/cgi-bin/irbis_nbuv/cgiirbis_64.exe?C21COM=2&I21DBN=UJRN&P21DBN=UJRN&IMAGE_FILE_DOWNLOAD=1&Image_file_name=PDF/Nz_2014_1-2_16.pdf">http://irbis-nbuv.gov.ua/cgi-bin/irbis_nbuv/cgiirbis_64.exe?C21COM=2&I21DBN=UJRN&P21DBN=UJRN&IMAGE_FILE_DOWNLOAD=1&Image_file_name=PDF/Nz_2014_1-2_16.pdf</a>
+<li><a name="ref13"></a>Максиянова, Т. В. Методика оценки эффективности предпринимательской деятельности в сфере интернет-коммерции / Т. В. Максиянова // Известия высших
+учебных заведений. Поволжский регион. Общественные науки. – 2012. – № 2 (22). – С. 161–166.<a href="http://cyberleninka.ru/article/n/metodika-otsenki-effektivnosti-predprinimatelskoy-deyatelnosti-v-sfere-internet-kommertsii.pdf">http://cyberleninka.ru/article/n/metodika-otsenki-effektivnosti-predprinimatelskoy-deyatelnosti-v-sfere-internet-kommertsii.pdf</a>
+<li><a name="ref14"></a>О. В. Кулёва - РАЗРАБОТКА СИСТЕМЫ ОЦЕНКИ КАЧЕСТВА САЙТОВ БИБЛИОТЕК.- БИБЛИОСФЕРА, 2009, № 2, с. 58?-63
+<li><a name="ref15"></a>Пасічник Н.Р. Формалізм у постановці задачі створення якісного сайта / Терноп. нац. екон. ун-т / Н.Р. Пасічник, М.П. Дивак // Наук. пр. ДонНТУ. – 2011. – Вип. 14 (188). – С. 325–329. 
+<li><a name="ref16"></a>Пілат О. Інформаційна система оцінки якості електронних видань / О. Пілат, І. Огірко // Український університет в Москві. – Т. 17. – М., 2012. – С. 162–166. 
+<li><a name="ref17"></a>Пілат О. Ю. Критерії якості мультимедійних технологій / О.Ю. Пілат, І.В. Огірко // Мультимедійні технології в освіті; Нац. освіт. ун-т. – К., 2011. – С. 54.
+<li><a name="ref18"></a>В.В. Гаркин, Р.Н. Чен - РАЗРАБОТКА И ИССЛЕДОВАНИЕ МЕТОДИКИ НАГРУЗОЧНОЙ И ФУНКЦИОНАЛЬНОЙ ОЦЕНКИ КАЧЕСТВА ИНФОРМАЦИОННЫХ СИСТЕМ//Системи обробки інформації, 2011, випуск 3 (93)/Інформаційні технології в медицині, економіці та екології
+</ol>
+
+</div>
+
+</div>
+
+<div id="menub">
+<a class=mitemb href="../indexe.htm">Resume</a>
+</div>
+
+</body>
+</html>
+<br>
+<br>
+
+<hr width=70% size=1 color=#B1B1B1>
+
+
+<div align="center">
+<!--<div align="center"> -->
+
+<center>
+<table border="0" cellspacing="2">
+ <tr align="center" valign="middle"> 
+            <td>
+<!-- BEGIN OF PING CODE v5.1 -->
+<script language="javascript">//<!--
+id="112802155341";img="count30";script="http://counter.topping.com.ua:80/cgi-bin/pinger.cgi";d=document;an=navigator.appName;rf=escape(d.referrer);w="";c="";jv="0";je="u";//-->
+</script>
+<script language="javascript1.1">//<!--
+jv="1";je = (navigator.javaEnabled()?"y":"n");//-->
+</script>
+<script language="javascript1.2">//<!--
+s=screen;w=s.width;an!="Netscape"?c=s.colorDepth:c=s.pixelDepth;jv="2";//-->
+</script>
+<script language="javascript1.3">//<!--
+jv="3";//-->
+</script>
+<script language="javascript">//<!--
+pi="";pi+="\""+script+"?id="+id+"&img="+img+"&w="+w+"&c="+c+"&ref="+rf+"&jsv="+jv+"&jen="+je+"\"";pi="<a href=http://www.topping.com.ua/ target=_blank><img src="+pi+" width=88 height=31 border=0 alt=\"Rated by PING\"></a>";d.write(pi);//-->
+</script>
+<noscript>
+<a href=http://www.topping.com.ua/rating/donetsk/ target=_blank><img src=http://counter.topping.com.ua:80/cgi-bin/ping.cgi?112802155341;count30 width=88 height=31 border=0 alt="Rated by PING"></a>
+</noscript>
+<!-- END OF PING CODE v5.1 -->
+            
+            </td>
+<td>
+<!--Rating@Mail.ru counter-->
+<script language="javascript"><!--
+d=document;var a='';a+=';r='+escape(d.referrer);js=10;//--></script>
+<script language="javascript1.1"><!--
+a+=';j='+navigator.javaEnabled();js=11;//--></script>
+<script language="javascript1.2"><!--
+s=screen;a+=';s='+s.width+'*'+s.height;
+a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;//--></script>
+<script language="javascript1.3"><!--
+js=13;//--></script><script language="javascript" type="text/javascript"><!--
+d.write('<a href="http://top.mail.ru/jump?from=407990" target="_top">'+
+'<img src="http://d9.c3.b6.a0.top.mail.ru/counter?id=407990;t=56;js='+js+
+a+';rand='+Math.random()+'" alt="Рейтинг@Mail.ru" border="0" '+
+'height="31" width="88"><\/a>');if(11<js)d.write('<'+'!-- ');//--></script>
+<noscript><a target="_top" href="http://top.mail.ru/jump?from=407990">
+<img src="http://d9.c3.b6.a0.top.mail.ru/counter?js=na;id=407990;t=56" 
+height="31" width="88" border="0" alt="Рейтинг@Mail.ru"></a></noscript>
+<script language="javascript" type="text/javascript"><!--
+if(11<js)d.write('--'+'>');//--></script>
+<!--// Rating@Mail.ru counter-->
+
+</td>
+          
+            <td>
+<!-- bigmir)net TOP 100 --><a href=http://top.bigmir.net/show/science/ target=_blank><script language="javascript"><!--
+bmQ='<img src=http://c.bigmir.net/?s38404&t5'
+bmD=document
+bmD.cookie="b=b"
+if(bmD.cookie)bmQ+='&c1'
+//--></script><script language="javascript1.2"><!-- 
+bmS=screen;bmQ+='&d'+(bmS.colorDepth?bmS.colorDepth:bmS.pixelDepth)+"&r"+bmS.width;
+//--></script><script language="javascript"><!--
+bmF = bmD.referrer.slice(7);
+((bmI=bmF.indexOf('/'))!=-1)?(bmF=bmF.substring(0,bmI)):(bmI=bmF.length);
+if(bmF!=window.location.href.substring(7,7+bmI))bmQ+='&f'+escape(bmD.referrer);
+bmD.write(bmQ+" border=0 width=88 height=31 alt='bigmir TOP100'>");
+//--></script></a>
+            
+            </td>
+	<td>
+<!--Openstat--><span id="openstat2124156"></span><script type="text/javascript">
+var openstat = { counter: 2124156, image: 5045, next: openstat }; document.write(unescape("%3Cscript%20src=%22http" +
+(("https:" == document.location.protocol) ? "s" : "") +
+"://openstat.net/cnt.js%22%20defer=%22defer%22%3E%3C/script%3E"));
+</script><!--/Openstat-->
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.6;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='1' height='1'><\/a>")
+//--></script><!--/LiveInternet-->
+
+</td>
+          </tr>
+</table><br>
+<!-- </div> -->

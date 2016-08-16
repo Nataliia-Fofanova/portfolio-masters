@@ -1,0 +1,24 @@
+ru
+Склярова Наталья Андреевна
+Модели и алгоритмы информационной системы оценки качества разработки сайтов
+Системный анализ и управление
+
+uk
+Склярова Наталія Андріївна
+Моделі та алгоритми інформаціоної системи оцінки якості розробки сайтів
+Системний аналіз та управління
+
+en
+Sklyarova Nataliia
+Models and algorithms for assessing the quality of the information system development sites
+System Analysis and Management
+
+fr
+Sklyarova Natalya
+Modeles et algorithmes informatsionoyi sites de developpement du systeme d'evaluation de la qualite
+Analyse et gestion du systeme
+
+ge
+Sklyarova Natalya
+Modelle und Algorithmen informatsionoyi Qualitatsbewertungssystem Entwicklungsstandorte
+System Analysis and Management
